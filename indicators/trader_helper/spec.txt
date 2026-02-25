@@ -1,0 +1,6 @@
+Yêu cầu:
+- Đếm ngược thời gian đóng cửa của cây nến timeframe hiện tại, hiển thị rõ ràng trên chart bằng OBJ_LABEL ở góc phải phía trên (có thể chỉnh vị trí bằng tham số TimerXDistance, TimerYDistance).
+- Hiển thị tỉ lệ risk/reward (ví dụ RR=1:15) của lệnh hiện tại đang đạt được (nếu có lệnh đang mở), cũng hiển thị bằng OBJ_LABEL ở góc phải phía trên, lệch xuống dưới timer (có thể chỉnh vị trí bằng các tham số tương tự).
+- Cho phép tùy chỉnh màu sắc, cỡ chữ cho từng thông tin hiển thị.
+- Nếu không có lệnh hoặc không đủ dữ liệu SL/TP, hiển thị RR=--.
+- Vị trí hiển thị dựa trên CORNER_LEFT_UPPER và XDISTANCE lớn để sát phải chart.

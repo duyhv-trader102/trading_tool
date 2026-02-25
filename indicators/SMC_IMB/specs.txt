@@ -1,0 +1,4 @@
+MỤC ĐÍCH:
+    - tạo 1 indicator tìm IMBALANCE của phương pháp SMC
+
+CÁCH XÁC ĐỊNH

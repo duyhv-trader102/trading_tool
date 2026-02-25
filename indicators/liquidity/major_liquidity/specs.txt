@@ -1,0 +1,35 @@
+MỤC ĐÍCH:
+- tạo indicator xác định các điểm được coi là thanh khoản chính cần phải quét
+input: MaxBars (default=500).
+input: khung thời gian để lấy ATR (default: 5m)-khung nhỏ từ 5-15m
+input: bật/tắt chế độ vẽ multi-tops/bottoms (ShowMultiTopsBottoms, default=true)
+
+CÁCH XÁC ĐỊNH:
+1. doji, đỉnh đáy là doji
+
+2. multi-tops/bottoms
+- trong MaxBars nến đang xét, tìm tất cả các điểm High hoặc Low lệch nhau không quá 2/3 ATR (ATR lấy ở khung 5m, chu kỳ = MaxBars)
+
+3. trendline - chưa cần
+
+CÁCH VẼ:
+1. doji, đỉnh đáy là doji
+- tìm tất cả các nến doji, và đánh dấu, nếu là nến đỏ thì đánh dấu trên High (cao hơn High), nếu là nến xanh thì 
+đánh dấu dưới Low (thấp hơn Low).
+- tìm tất cả các đỉnh đáy, và xét nến giữa là nến doji thì mark là đỉnh/đáy doji.
+
+2. multi-tops/bottoms
+- trong MaxBars cây nến đang xét, tìm tất cả các điểm High hoặc low lệch nhau 2/3 ATR (ATR khung 5m, chu kỳ MaxBars)
+- nối từng cặp 2 điểm bằng đoạn thẳng lại với nhau, nếu ở giữa bị chọc qua thì bỏ đoạn thẳng đó đi không vẽ.
+- chỉ vẽ multi-tops/bottoms ở các khung [30m, 1h, 2h, 3h, 4h, 6h, 8h, 12h, 1D, 1W, 1MN]
+- có thể bật/tắt vẽ multi-tops/bottoms bằng input ShowMultiTopsBottoms
+
+3. trendline - chưa xác định
+
+cleanup: 
+- quản lý object của indicator theo tên indicator và khung thời gian
+- xóa tất cả object của khung thời gian hiện tại và vẽ lại khi chuyển sang khung khác và vẽ lại.
+- xóa tất cả object đã vẽ của indicator sau khi xóa indicator (OnDeinit gọi CleanupAllIndicatorObjects)
+
+yêu cầu:
+- viết code dễ đọc,

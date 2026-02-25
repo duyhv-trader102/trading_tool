@@ -1,0 +1,13 @@
+Tạo indicator trên metatrader 5
+Mục đích:
+- show giá của tất cả đỉnh/đáy của 1000 cây nến gần nhất
+
+Input:
+- Maxbars
+- Distance
+
+Ouput:
+- Label hiển thị giá của đỉnh/đáy
+- Cách ngay bên trên đỉnh/ ngay bên dưới đáy 1 khoảng = Distance
+- Xóa tất cả các object sau khi xóa indicator
+- Khung nào hiển thị chỉ ở khung đó

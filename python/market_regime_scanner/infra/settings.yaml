@@ -1,0 +1,22 @@
+# MT5 credentials are loaded from environment variables / .env file.
+# See .env.example for required variables.
+
+# TPO Analysis Settings
+tpo:
+  monthly:
+    sessions: 4
+    data_tf: W1
+    target_rows: 40
+  weekly:
+    sessions: 4
+    data_tf: D1
+    target_rows: 40
+  daily:
+    sessions: 5
+    data_tf: H4
+    target_rows: 40
+
+# Regime Classification Thresholds
+regime:
+  va_overlap_min: 0.4
+  poc_shift_max: 0.3

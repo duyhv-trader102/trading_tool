@@ -1,0 +1,21 @@
+tôi muốn tạo 1 indicator vẽ tpo cho mt5: có 1 số yêu cầu sau:
+- về dạng TPO: normal distribution
+A
+A
+ABDEFG
+ABDEFG
+BCDEFGH
+BCDGH
+CDGH
+GH
+G
+- boxsize tương ứng với mỗi chữ cái, 1 box = 1 bước giá, mỗi bước giá tương ứng với từng cặp, trước mắt với cặp XAUUSD
+boxsize mặc định cho 30m sẽ là 1$
+- tpo dùng được nhiều timeframe, nhiều session:
+    + session 1D: dùng được trên timeframe 30m, 1H, 2H, 3H, 4H. Thấp hơn thì ko cần hiển thị
+    + session 1W, 1M: dùng được trên timeframe 1D, nhỏ hơn thì ko cần hiển thị.
+=> yêu cầu là gì?:
+- hiển thị được nhiều session khác nhau: ví dụ 5 session 1D gần nhau, 5 session 1W gần nhau, ... Muốn làm 
+được điều này cần xác định được:
+    + thời điểm bắt đầu của mỗi loại session: sessionStart1D, sessionStart1W, sessionStart1M
+    

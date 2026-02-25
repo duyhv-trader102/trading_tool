@@ -1,0 +1,26 @@
+mục đích: tạo indicator detect FVG - khoảng trống giữa 2 cây nến liên tiếp
+cách xác định:
+    - đối với 2 cây nến liên tiếp cùng màu cùng xu hướng:
+        + i là nến hiện tại và i-1 là cây nến ngay trước đó.
+        + với 2 cây nến xanh tăng liên tiếp: nếu close i-1 < open i thì sẽ tạo thành FVG
+        + với 2 cây nến đỏ giảm liên tiếp: nếu close i -1 > open i thì sẽ tạo thành FVG
+    - phát hiện Gap thực sự giữa 2 cây nến liên tiếp
+        + Gap tăng (up gap): nếu low của nến hiện tại (i) > high của nến trước đó (i-1) thì xuất hiện gap tăng.
+        + Gap giảm (down gap): nếu high của nến hiện tại (i) < low của nến trước đó (i-1) thì xuất hiện gap giảm.
+    - đối với 2 cây nến liên tiếp khác màu: {open i-1;close i-1} nằm ngoài body của cây i.
+input:
+    - max bars: số lượng nến check tối đa.
+
+cách vẽ:
+    - vẽ 1 đường nét đứt từ điểm xác định được fvg: đối với 2 nến xanh là vẽ tại close i-1,
+    đối với 2 nến đỏ liên tiếp thì vẽ tại close i -1.
+    - đường nét đứt này sẽ kéo dài hết màn hình về phía bên phải.
+    - check xem đường nét đứt nào đã bị cắt bên phải, nếu bị cắt thì chỉ vẽ tới nến bị cắt,
+    - hiển thị độ lệch - fvg: ví dụ đối với 2 nến xanh liên tiếp thì độ lệch = open i - close i -1,
+    hiển thị độ lệnh lên trên đường nét đứt và ở giữa đối với đường nét đứt bị cắt phải
+    và hiển thị cách nến 15 nến tiếp theo (i+15) đối với đường nét đứt ko bị cắt phải.
+    - Đường FVG được vẽ bằng OBJ_TREND với kiểu nét đứt (STYLE_DASHDOT), độ dày nhỏ (mặc định là 1).
+    - Nếu FVG chưa bị quét phải thì ray sẽ kéo dài hết màn hình về phía phải (OBJPROP_RAY_RIGHT = true).
+    - Label độ lệch chỉ hiển thị số, không có chữ "FVG".
+    - Đối với 2 nến liên tiếp khác màu, vẽ ray tại close i-1.
+cleanup: xóa tất cả object được indicator vẽ

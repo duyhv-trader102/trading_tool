@@ -1,0 +1,3530 @@
+[
+  {
+    "symbol": "0G/USDT",
+    "passed": false,
+    "reject_reason": "short_history (157d < 500d)",
+    "history_days": 157,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "1000CAT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (436d < 500d)",
+    "history_days": 436,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "1000CHEEMS/USDT",
+    "passed": false,
+    "reject_reason": "short_history (382d < 500d)",
+    "history_days": 382,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "1000SATS/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000011 < $0.0001)",
+    "history_days": 807,
+    "avg_volume_usdt": 4633630.55044573,
+    "last_price": 1.07e-05
+  },
+  {
+    "symbol": "1INCH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1889,
+    "avg_volume_usdt": 2064368.1013913334,
+    "last_price": 0.0898
+  },
+  {
+    "symbol": "1MBABYDOGE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 528,
+    "avg_volume_usdt": 2305911.474966802,
+    "last_price": 0.0003788
+  },
+  {
+    "symbol": "2Z/USDT",
+    "passed": false,
+    "reject_reason": "short_history (147d < 500d)",
+    "history_days": 147,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "A/USDT",
+    "passed": false,
+    "reject_reason": "short_history (274d < 500d)",
+    "history_days": 274,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "A2Z/USDT",
+    "passed": false,
+    "reject_reason": "short_history (211d < 500d)",
+    "history_days": 211,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AAVE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1960,
+    "avg_volume_usdt": 25264606.20303022,
+    "last_price": 118.32
+  },
+  {
+    "symbol": "ACE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 801,
+    "avg_volume_usdt": 2334504.51084,
+    "last_price": 0.148
+  },
+  {
+    "symbol": "ACH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1508,
+    "avg_volume_usdt": 2083954.9714257221,
+    "last_price": 0.007
+  },
+  {
+    "symbol": "ACM/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($806,220 < $1,000,000)",
+    "history_days": 1828,
+    "avg_volume_usdt": 806220.2778416667,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ACT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (472d < 500d)",
+    "history_days": 472,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ACX/USDT",
+    "passed": false,
+    "reject_reason": "short_history (447d < 500d)",
+    "history_days": 447,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ADA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2872,
+    "avg_volume_usdt": 73408573.13428794,
+    "last_price": 0.266
+  },
+  {
+    "symbol": "ADX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1581,
+    "avg_volume_usdt": 1372546.4133905557,
+    "last_price": 0.0724
+  },
+  {
+    "symbol": "AEUR/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AEVO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 715,
+    "avg_volume_usdt": 2617058.0093428157,
+    "last_price": 0.023
+  },
+  {
+    "symbol": "AGLD/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($886,954 < $1,000,000)",
+    "history_days": 1605,
+    "avg_volume_usdt": 886954.4293877779,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 784,
+    "avg_volume_usdt": 2327094.565868111,
+    "last_price": 0.0203
+  },
+  {
+    "symbol": "AIXBT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (412d < 500d)",
+    "history_days": 412,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ALCX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1549,
+    "avg_volume_usdt": 1640340.5698908002,
+    "last_price": 4.5
+  },
+  {
+    "symbol": "ALGO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2441,
+    "avg_volume_usdt": 5176383.391537777,
+    "last_price": 0.0849
+  },
+  {
+    "symbol": "ALICE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1809,
+    "avg_volume_usdt": 3237919.9063279442,
+    "last_price": 0.102
+  },
+  {
+    "symbol": "ALLO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (107d < 500d)",
+    "history_days": 107,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ALPINE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1466,
+    "avg_volume_usdt": 7433718.027242277,
+    "last_price": 0.421
+  },
+  {
+    "symbol": "ALT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 763,
+    "avg_volume_usdt": 2403643.911567167,
+    "last_price": 0.00751
+  },
+  {
+    "symbol": "AMP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1556,
+    "avg_volume_usdt": 1072046.1464044834,
+    "last_price": 0.001453
+  },
+  {
+    "symbol": "ANIME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (399d < 500d)",
+    "history_days": 399,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ANKR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($841,991 < $1,000,000)",
+    "history_days": 2410,
+    "avg_volume_usdt": 841990.9127424833,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "APE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1442,
+    "avg_volume_usdt": 3108572.7868565833,
+    "last_price": 0.1036
+  },
+  {
+    "symbol": "API3/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1497,
+    "avg_volume_usdt": 2727357.8557885005,
+    "last_price": 0.2915
+  },
+  {
+    "symbol": "APT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1226,
+    "avg_volume_usdt": 18818776.28938539,
+    "last_price": 0.848
+  },
+  {
+    "symbol": "AR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1749,
+    "avg_volume_usdt": 7316949.019202777,
+    "last_price": 1.89
+  },
+  {
+    "symbol": "ARB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1071,
+    "avg_volume_usdt": 23324797.77285478,
+    "last_price": 0.0927
+  },
+  {
+    "symbol": "ARDR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($381,284 < $1,000,000)",
+    "history_days": 2113,
+    "avg_volume_usdt": 381284.28245049994,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ARK/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($720,003 < $1,000,000)",
+    "history_days": 888,
+    "avg_volume_usdt": 720002.6927255555,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ARKM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 954,
+    "avg_volume_usdt": 6320649.2357761115,
+    "last_price": 0.108
+  },
+  {
+    "symbol": "ARPA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2304,
+    "avg_volume_usdt": 1722192.6677987669,
+    "last_price": 0.00964
+  },
+  {
+    "symbol": "ASR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1884,
+    "avg_volume_usdt": 2018548.029572222,
+    "last_price": 1.354
+  },
+  {
+    "symbol": "ASTER/USDT",
+    "passed": false,
+    "reject_reason": "short_history (143d < 500d)",
+    "history_days": 143,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ASTR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1459,
+    "avg_volume_usdt": 1313584.084844189,
+    "last_price": 0.00729
+  },
+  {
+    "symbol": "AT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (91d < 500d)",
+    "history_days": 91,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ATA/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($304,633 < $1,000,000)",
+    "history_days": 1725,
+    "avg_volume_usdt": 304633.3415788889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ATM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1884,
+    "avg_volume_usdt": 1592372.4229012225,
+    "last_price": 1.438
+  },
+  {
+    "symbol": "ATOM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2495,
+    "avg_volume_usdt": 5880115.246427056,
+    "last_price": 2.063
+  },
+  {
+    "symbol": "AUCTION/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1581,
+    "avg_volume_usdt": 3148987.757549444,
+    "last_price": 4.91
+  },
+  {
+    "symbol": "AUDIO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($744,655 < $1,000,000)",
+    "history_days": 1952,
+    "avg_volume_usdt": 744654.9189328889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AVA/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($726,463 < $1,000,000)",
+    "history_days": 1920,
+    "avg_volume_usdt": 726462.6595243334,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AVAX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1983,
+    "avg_volume_usdt": 64358699.27754887,
+    "last_price": 8.55
+  },
+  {
+    "symbol": "AVNT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (164d < 500d)",
+    "history_days": 164,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AWE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (281d < 500d)",
+    "history_days": 281,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "AXL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 727,
+    "avg_volume_usdt": 2013676.7697161003,
+    "last_price": 0.0525
+  },
+  {
+    "symbol": "AXS/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1940,
+    "avg_volume_usdt": 7630086.6832036665,
+    "last_price": 1.281
+  },
+  {
+    "symbol": "BABY/USDT",
+    "passed": false,
+    "reject_reason": "short_history (322d < 500d)",
+    "history_days": 322,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BANANA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 586,
+    "avg_volume_usdt": 2071522.8626154999,
+    "last_price": 4.16
+  },
+  {
+    "symbol": "BANANAS31/USDT",
+    "passed": false,
+    "reject_reason": "short_history (336d < 500d)",
+    "history_days": 336,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BAND/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($768,717 < $1,000,000)",
+    "history_days": 2353,
+    "avg_volume_usdt": 768716.8034477776,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BANK/USDT",
+    "passed": false,
+    "reject_reason": "short_history (105d < 500d)",
+    "history_days": 105,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BAR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($708,859 < $1,000,000)",
+    "history_days": 1772,
+    "avg_volume_usdt": 708858.9229145,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BARD/USDT",
+    "passed": false,
+    "reject_reason": "short_history (161d < 500d)",
+    "history_days": 161,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BAT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2551,
+    "avg_volume_usdt": 3414581.018415556,
+    "last_price": 0.1204
+  },
+  {
+    "symbol": "BB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 654,
+    "avg_volume_usdt": 4845092.774147611,
+    "last_price": 0.0267
+  },
+  {
+    "symbol": "BCH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2282,
+    "avg_volume_usdt": 33360137.621311665,
+    "last_price": 500.5
+  },
+  {
+    "symbol": "BEAMX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 835,
+    "avg_volume_usdt": 2191405.5079224664,
+    "last_price": 0.001962
+  },
+  {
+    "symbol": "BEL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1990,
+    "avg_volume_usdt": 2322490.987682333,
+    "last_price": 0.097
+  },
+  {
+    "symbol": "BERA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (385d < 500d)",
+    "history_days": 385,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BFUSD/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BICO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($601,806 < $1,000,000)",
+    "history_days": 1540,
+    "avg_volume_usdt": 601805.9636383166,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BIFI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1427,
+    "avg_volume_usdt": 1513007.7090566666,
+    "last_price": 118.1
+  },
+  {
+    "symbol": "BIGTIME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (321d < 500d)",
+    "history_days": 321,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BIO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (419d < 500d)",
+    "history_days": 419,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BLUR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 825,
+    "avg_volume_usdt": 1137234.2015896167,
+    "last_price": 0.01965
+  },
+  {
+    "symbol": "BMT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (345d < 500d)",
+    "history_days": 345,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BNB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 3034,
+    "avg_volume_usdt": 299471290.875788,
+    "last_price": 595.25
+  },
+  {
+    "symbol": "BNSOL/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BNT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($254,481 < $1,000,000)",
+    "history_days": 2212,
+    "avg_volume_usdt": 254481.3007226111,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BOME/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 712,
+    "avg_volume_usdt": 2769694.744681011,
+    "last_price": 0.000381
+  },
+  {
+    "symbol": "BONK/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000006 < $0.0001)",
+    "history_days": 804,
+    "avg_volume_usdt": 21729434.211702418,
+    "last_price": 5.79e-06
+  },
+  {
+    "symbol": "BREV/USDT",
+    "passed": false,
+    "reject_reason": "short_history (51d < 500d)",
+    "history_days": 51,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BROCCOLI714/USDT",
+    "passed": false,
+    "reject_reason": "short_history (336d < 500d)",
+    "history_days": 336,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "BTC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 3115,
+    "avg_volume_usdt": 1892676198.0735939,
+    "last_price": 65576.4
+  },
+  {
+    "symbol": "BTTC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($771,785 < $1,000,000)",
+    "history_days": 1493,
+    "avg_volume_usdt": 771785.0698561908,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "C/USDT",
+    "passed": false,
+    "reject_reason": "short_history (223d < 500d)",
+    "history_days": 223,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "C98/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1679,
+    "avg_volume_usdt": 1691221.3117480555,
+    "last_price": 0.0257
+  },
+  {
+    "symbol": "CAKE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1833,
+    "avg_volume_usdt": 21105335.95742822,
+    "last_price": 1.235
+  },
+  {
+    "symbol": "CATI/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($989,454 < $1,000,000)",
+    "history_days": 524,
+    "avg_volume_usdt": 989454.3093519445,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CELO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1878,
+    "avg_volume_usdt": 2250788.8588847774,
+    "last_price": 0.0746
+  },
+  {
+    "symbol": "CELR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($507,921 < $1,000,000)",
+    "history_days": 2530,
+    "avg_volume_usdt": 507921.48637547344,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CETUS/USDT",
+    "passed": false,
+    "reject_reason": "short_history (477d < 500d)",
+    "history_days": 477,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CFX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1795,
+    "avg_volume_usdt": 5239545.168090556,
+    "last_price": 0.0494
+  },
+  {
+    "symbol": "CGPT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (412d < 500d)",
+    "history_days": 412,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CHR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($950,304 < $1,000,000)",
+    "history_days": 2121,
+    "avg_volume_usdt": 950304.1813222221,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CHZ/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2365,
+    "avg_volume_usdt": 4982272.009066445,
+    "last_price": 0.03372
+  },
+  {
+    "symbol": "CITY/USDT",
+    "passed": false,
+    "reject_reason": "universe_cap (top 200 by volume)",
+    "history_days": 1569,
+    "avg_volume_usdt": 1023595.8437227223,
+    "last_price": 0.67
+  },
+  {
+    "symbol": "CKB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1857,
+    "avg_volume_usdt": 1189655.4708834002,
+    "last_price": 0.001527
+  },
+  {
+    "symbol": "COMP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2072,
+    "avg_volume_usdt": 2837348.612052056,
+    "last_price": 17.87
+  },
+  {
+    "symbol": "COOKIE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (412d < 500d)",
+    "history_days": 412,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "COS/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($495,160 < $1,000,000)",
+    "history_days": 2399,
+    "avg_volume_usdt": 495159.58824213117,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "COTI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2192,
+    "avg_volume_usdt": 1659232.5433506,
+    "last_price": 0.01162
+  },
+  {
+    "symbol": "COW/USDT",
+    "passed": false,
+    "reject_reason": "short_history (477d < 500d)",
+    "history_days": 477,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CRV/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2021,
+    "avg_volume_usdt": 12732668.695001889,
+    "last_price": 0.2335
+  },
+  {
+    "symbol": "CTK/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($713,374 < $1,000,000)",
+    "history_days": 1948,
+    "avg_volume_usdt": 713374.3311413889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CTSI/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($969,372 < $1,000,000)",
+    "history_days": 2135,
+    "avg_volume_usdt": 969371.5097947223,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CVC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($647,351 < $1,000,000)",
+    "history_days": 2222,
+    "avg_volume_usdt": 647350.7163388333,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "CVX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1526,
+    "avg_volume_usdt": 1642846.2269059944,
+    "last_price": 1.804
+  },
+  {
+    "symbol": "CYBER/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 926,
+    "avg_volume_usdt": 2250377.306445111,
+    "last_price": 0.552
+  },
+  {
+    "symbol": "D/USDT",
+    "passed": false,
+    "reject_reason": "short_history (413d < 500d)",
+    "history_days": 413,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DASH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2527,
+    "avg_volume_usdt": 34254597.86845606,
+    "last_price": 33.05
+  },
+  {
+    "symbol": "DCR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2037,
+    "avg_volume_usdt": 2462703.9349748334,
+    "last_price": 28.0
+  },
+  {
+    "symbol": "DEGO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1814,
+    "avg_volume_usdt": 3131133.8986588335,
+    "last_price": 0.32
+  },
+  {
+    "symbol": "DENT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($517,587 < $1,000,000)",
+    "history_days": 2375,
+    "avg_volume_usdt": 517587.29263555,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DEXE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1679,
+    "avg_volume_usdt": 1808437.6480612778,
+    "last_price": 3.338
+  },
+  {
+    "symbol": "DGB/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($907,193 < $1,000,000)",
+    "history_days": 2047,
+    "avg_volume_usdt": 907192.6309928776,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DIA/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($942,781 < $1,000,000)",
+    "history_days": 2001,
+    "avg_volume_usdt": 942780.9370978334,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DODO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($736,459 < $1,000,000)",
+    "history_days": 1833,
+    "avg_volume_usdt": 736459.172006889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DOGE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2428,
+    "avg_volume_usdt": 207392093.76861736,
+    "last_price": 0.09262
+  },
+  {
+    "symbol": "DOGS/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000027 < $0.0001)",
+    "history_days": 549,
+    "avg_volume_usdt": 1708539.1222044004,
+    "last_price": 2.65e-05
+  },
+  {
+    "symbol": "DOLO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (183d < 500d)",
+    "history_days": 183,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "DOT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2018,
+    "avg_volume_usdt": 20979278.0209026,
+    "last_price": 1.276
+  },
+  {
+    "symbol": "DUSK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2411,
+    "avg_volume_usdt": 3666628.2952261115,
+    "last_price": 0.0914
+  },
+  {
+    "symbol": "DYDX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1631,
+    "avg_volume_usdt": 3940999.0408560163,
+    "last_price": 0.0935
+  },
+  {
+    "symbol": "DYM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 751,
+    "avg_volume_usdt": 2340594.067129167,
+    "last_price": 0.0387
+  },
+  {
+    "symbol": "EDEN/USDT",
+    "passed": false,
+    "reject_reason": "short_history (149d < 500d)",
+    "history_days": 149,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "EDU/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1035,
+    "avg_volume_usdt": 2354715.516203334,
+    "last_price": 0.1056
+  },
+  {
+    "symbol": "EGLD/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2002,
+    "avg_volume_usdt": 1679826.823252778,
+    "last_price": 4.36
+  },
+  {
+    "symbol": "EIGEN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 513,
+    "avg_volume_usdt": 13481427.673994388,
+    "last_price": 0.192
+  },
+  {
+    "symbol": "ENA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 695,
+    "avg_volume_usdt": 57332469.85454278,
+    "last_price": 0.0997
+  },
+  {
+    "symbol": "ENJ/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($834,831 < $1,000,000)",
+    "history_days": 2506,
+    "avg_volume_usdt": 834830.9099681835,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ENS/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1569,
+    "avg_volume_usdt": 3878152.210473889,
+    "last_price": 6.13
+  },
+  {
+    "symbol": "ENSO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (135d < 500d)",
+    "history_days": 135,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "EPIC/USDT",
+    "passed": false,
+    "reject_reason": "short_history (350d < 500d)",
+    "history_days": 350,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ERA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (224d < 500d)",
+    "history_days": 224,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ESP/USDT",
+    "passed": false,
+    "reject_reason": "short_history (14d < 500d)",
+    "history_days": 14,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ETC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2816,
+    "avg_volume_usdt": 9465503.94955611,
+    "last_price": 8.44
+  },
+  {
+    "symbol": "ETH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 3115,
+    "avg_volume_usdt": 1597212351.4815016,
+    "last_price": 1912.26
+  },
+  {
+    "symbol": "ETHFI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 710,
+    "avg_volume_usdt": 13688735.894953886,
+    "last_price": 0.514
+  },
+  {
+    "symbol": "EUL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (136d < 500d)",
+    "history_days": 136,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "EUR/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "EURI/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "F/USDT",
+    "passed": false,
+    "reject_reason": "short_history (124d < 500d)",
+    "history_days": 124,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FARM/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($606,795 < $1,000,000)",
+    "history_days": 1660,
+    "avg_volume_usdt": 606794.8881622778,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FDUSD/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FET/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2555,
+    "avg_volume_usdt": 19083275.059050336,
+    "last_price": 0.1547
+  },
+  {
+    "symbol": "FF/USDT",
+    "passed": false,
+    "reject_reason": "short_history (150d < 500d)",
+    "history_days": 150,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FIDA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1610,
+    "avg_volume_usdt": 1533288.1421591665,
+    "last_price": 0.0156
+  },
+  {
+    "symbol": "FIL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1960,
+    "avg_volume_usdt": 26880464.3960295,
+    "last_price": 0.899
+  },
+  {
+    "symbol": "FIO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($575,464 < $1,000,000)",
+    "history_days": 2001,
+    "avg_volume_usdt": 575464.1317454999,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FLOKI/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000028 < $0.0001)",
+    "history_days": 1028,
+    "avg_volume_usdt": 11339282.20644919,
+    "last_price": 2.825e-05
+  },
+  {
+    "symbol": "FLOW/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1672,
+    "avg_volume_usdt": 2148065.8554446553,
+    "last_price": 0.0353
+  },
+  {
+    "symbol": "FLUX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1539,
+    "avg_volume_usdt": 1599379.7093735056,
+    "last_price": 0.063
+  },
+  {
+    "symbol": "FOGO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (42d < 500d)",
+    "history_days": 42,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FORM/USDT",
+    "passed": false,
+    "reject_reason": "short_history (344d < 500d)",
+    "history_days": 344,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FORTH/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($350,998 < $1,000,000)",
+    "history_days": 1770,
+    "avg_volume_usdt": 350997.9233190556,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FRAX/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FTT/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "FUN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2375,
+    "avg_volume_usdt": 1420782.3463695613,
+    "last_price": 0.001367
+  },
+  {
+    "symbol": "G/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($791,164 < $1,000,000)",
+    "history_days": 587,
+    "avg_volume_usdt": 791164.2248385556,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GALA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1627,
+    "avg_volume_usdt": 6725963.833362112,
+    "last_price": 0.00349
+  },
+  {
+    "symbol": "GAS/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($760,089 < $1,000,000)",
+    "history_days": 1077,
+    "avg_volume_usdt": 760088.9574366667,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GIGGLE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (124d < 500d)",
+    "history_days": 124,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GLM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1077,
+    "avg_volume_usdt": 1133739.7341977223,
+    "last_price": 0.1496
+  },
+  {
+    "symbol": "GLMR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($949,839 < $1,000,000)",
+    "history_days": 1507,
+    "avg_volume_usdt": 949838.6034517222,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GMT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1450,
+    "avg_volume_usdt": 1942813.7050811946,
+    "last_price": 0.01118
+  },
+  {
+    "symbol": "GMX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1240,
+    "avg_volume_usdt": 1068185.0775291112,
+    "last_price": 6.53
+  },
+  {
+    "symbol": "GNO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($359,045 < $1,000,000)",
+    "history_days": 1641,
+    "avg_volume_usdt": 359044.8621342778,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GNS/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($267,614 < $1,000,000)",
+    "history_days": 1105,
+    "avg_volume_usdt": 267614.33863838884,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GPS/USDT",
+    "passed": false,
+    "reject_reason": "short_history (359d < 500d)",
+    "history_days": 359,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GRT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1897,
+    "avg_volume_usdt": 2695908.7863151105,
+    "last_price": 0.02632
+  },
+  {
+    "symbol": "GTC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($414,630 < $1,000,000)",
+    "history_days": 1722,
+    "avg_volume_usdt": 414629.9298916667,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "GUN/USDT",
+    "passed": false,
+    "reject_reason": "short_history (332d < 500d)",
+    "history_days": 332,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HAEDAL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (281d < 500d)",
+    "history_days": 281,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HBAR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2342,
+    "avg_volume_usdt": 28205452.131437607,
+    "last_price": 0.09738
+  },
+  {
+    "symbol": "HEI/USDT",
+    "passed": false,
+    "reject_reason": "short_history (378d < 500d)",
+    "history_days": 378,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HEMI/USDT",
+    "passed": false,
+    "reject_reason": "short_history (156d < 500d)",
+    "history_days": 156,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HFT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1207,
+    "avg_volume_usdt": 1852513.6319847775,
+    "last_price": 0.0142
+  },
+  {
+    "symbol": "HIGH/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($992,634 < $1,000,000)",
+    "history_days": 1532,
+    "avg_volume_usdt": 992633.8406783888,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HIVE/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($645,937 < $1,000,000)",
+    "history_days": 2131,
+    "avg_volume_usdt": 645937.2127188889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HMSTR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 518,
+    "avg_volume_usdt": 1494259.3773482952,
+    "last_price": 0.0001662
+  },
+  {
+    "symbol": "HOLO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (168d < 500d)",
+    "history_days": 168,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HOME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (259d < 500d)",
+    "history_days": 259,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HOOK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1183,
+    "avg_volume_usdt": 1713659.3548106106,
+    "last_price": 0.0228
+  },
+  {
+    "symbol": "HOT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($827,340 < $1,000,000)",
+    "history_days": 2565,
+    "avg_volume_usdt": 827340.0099743222,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HUMA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (276d < 500d)",
+    "history_days": 276,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "HYPER/USDT",
+    "passed": false,
+    "reject_reason": "short_history (310d < 500d)",
+    "history_days": 310,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ICP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1752,
+    "avg_volume_usdt": 27535806.347812776,
+    "last_price": 2.18
+  },
+  {
+    "symbol": "ICX/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($439,081 < $1,000,000)",
+    "history_days": 2815,
+    "avg_volume_usdt": 439080.68719338893,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ID/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1072,
+    "avg_volume_usdt": 1252772.913708889,
+    "last_price": 0.0438
+  },
+  {
+    "symbol": "IDEX/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($859,157 < $1,000,000)",
+    "history_days": 1631,
+    "avg_volume_usdt": 859157.1019842942,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ILV/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1618,
+    "avg_volume_usdt": 1460396.6231710557,
+    "last_price": 3.55
+  },
+  {
+    "symbol": "IMX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1508,
+    "avg_volume_usdt": 3420422.9413489155,
+    "last_price": 0.1638
+  },
+  {
+    "symbol": "INIT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (308d < 500d)",
+    "history_days": 308,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "INJ/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1954,
+    "avg_volume_usdt": 8083503.854916835,
+    "last_price": 3.177
+  },
+  {
+    "symbol": "IO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 625,
+    "avg_volume_usdt": 3788740.8229033896,
+    "last_price": 0.111
+  },
+  {
+    "symbol": "IOST/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($720,772 < $1,000,000)",
+    "history_days": 2533,
+    "avg_volume_usdt": 720771.7281036943,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "IOTA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2828,
+    "avg_volume_usdt": 2212352.038073667,
+    "last_price": 0.0667
+  },
+  {
+    "symbol": "IOTX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2296,
+    "avg_volume_usdt": 1301381.745162,
+    "last_price": 0.00458
+  },
+  {
+    "symbol": "IQ/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($580,294 < $1,000,000)",
+    "history_days": 888,
+    "avg_volume_usdt": 580293.5902348056,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "JASMY/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1557,
+    "avg_volume_usdt": 2977692.2786827884,
+    "last_price": 0.00569
+  },
+  {
+    "symbol": "JOE/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($748,396 < $1,000,000)",
+    "history_days": 1521,
+    "avg_volume_usdt": 748396.1404045725,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "JST/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2025,
+    "avg_volume_usdt": 2296322.117934116,
+    "last_price": 0.04604
+  },
+  {
+    "symbol": "JTO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 812,
+    "avg_volume_usdt": 3490069.296903777,
+    "last_price": 0.2818
+  },
+  {
+    "symbol": "JUP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 757,
+    "avg_volume_usdt": 4326227.557854555,
+    "last_price": 0.1477
+  },
+  {
+    "symbol": "JUV/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1893,
+    "avg_volume_usdt": 1512109.2587479446,
+    "last_price": 0.619
+  },
+  {
+    "symbol": "KAIA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (483d < 500d)",
+    "history_days": 483,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KAITO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (371d < 500d)",
+    "history_days": 371,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KAVA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2316,
+    "avg_volume_usdt": 1894695.7201953891,
+    "last_price": 0.048
+  },
+  {
+    "symbol": "KERNEL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (318d < 500d)",
+    "history_days": 318,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KGST/USDT",
+    "passed": false,
+    "reject_reason": "short_history (64d < 500d)",
+    "history_days": 64,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KITE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (115d < 500d)",
+    "history_days": 115,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KMNO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (296d < 500d)",
+    "history_days": 296,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KNC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($626,161 < $1,000,000)",
+    "history_days": 2085,
+    "avg_volume_usdt": 626160.8645315556,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "KSM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2001,
+    "avg_volume_usdt": 1641872.4049322223,
+    "last_price": 5.31
+  },
+  {
+    "symbol": "LA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (232d < 500d)",
+    "history_days": 232,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LAYER/USDT",
+    "passed": false,
+    "reject_reason": "short_history (380d < 500d)",
+    "history_days": 380,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LAZIO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($739,539 < $1,000,000)",
+    "history_days": 1589,
+    "avg_volume_usdt": 739539.0810034999,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LDO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1389,
+    "avg_volume_usdt": 10428361.468097845,
+    "last_price": 0.3055
+  },
+  {
+    "symbol": "LINEA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (169d < 500d)",
+    "history_days": 169,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LINK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2598,
+    "avg_volume_usdt": 61357675.237700544,
+    "last_price": 8.53
+  },
+  {
+    "symbol": "LISTA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 616,
+    "avg_volume_usdt": 3241584.328064167,
+    "last_price": 0.0812
+  },
+  {
+    "symbol": "LPT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1735,
+    "avg_volume_usdt": 2855547.019049,
+    "last_price": 2.268
+  },
+  {
+    "symbol": "LQTY/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($984,932 < $1,000,000)",
+    "history_days": 1094,
+    "avg_volume_usdt": 984932.010458889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LRC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2085,
+    "avg_volume_usdt": 1856322.6773494445,
+    "last_price": 0.0332
+  },
+  {
+    "symbol": "LSK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2212,
+    "avg_volume_usdt": 1744803.0478955556,
+    "last_price": 0.13
+  },
+  {
+    "symbol": "LTC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2997,
+    "avg_volume_usdt": 49493439.91484027,
+    "last_price": 52.77
+  },
+  {
+    "symbol": "LUMIA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (496d < 500d)",
+    "history_days": 496,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LUNA/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "LUNC/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MAGIC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1172,
+    "avg_volume_usdt": 2577317.686257667,
+    "last_price": 0.0628
+  },
+  {
+    "symbol": "MANA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2030,
+    "avg_volume_usdt": 2880437.880833333,
+    "last_price": 0.0907
+  },
+  {
+    "symbol": "MANTA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 770,
+    "avg_volume_usdt": 2233485.5513340556,
+    "last_price": 0.0636
+  },
+  {
+    "symbol": "MASK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1738,
+    "avg_volume_usdt": 1109385.9060366666,
+    "last_price": 0.421
+  },
+  {
+    "symbol": "MAV/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 974,
+    "avg_volume_usdt": 3180040.477805111,
+    "last_price": 0.01433
+  },
+  {
+    "symbol": "MBL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2197,
+    "avg_volume_usdt": 1993207.8687246554,
+    "last_price": 0.000918
+  },
+  {
+    "symbol": "MBOX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1652,
+    "avg_volume_usdt": 1127386.3815708333,
+    "last_price": 0.0185
+  },
+  {
+    "symbol": "MDT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($882,917 < $1,000,000)",
+    "history_days": 2092,
+    "avg_volume_usdt": 882916.7566388443,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (443d < 500d)",
+    "history_days": 443,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MEME/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 846,
+    "avg_volume_usdt": 3736983.79818637,
+    "last_price": 0.000651
+  },
+  {
+    "symbol": "MET/USDT",
+    "passed": false,
+    "reject_reason": "short_history (105d < 500d)",
+    "history_days": 105,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "METIS/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 717,
+    "avg_volume_usdt": 1544857.0165381667,
+    "last_price": 3.22
+  },
+  {
+    "symbol": "MINA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1661,
+    "avg_volume_usdt": 3604045.6331487773,
+    "last_price": 0.0568
+  },
+  {
+    "symbol": "MIRA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (153d < 500d)",
+    "history_days": 153,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MITO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (181d < 500d)",
+    "history_days": 181,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MLN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1697,
+    "avg_volume_usdt": 2456218.9219478336,
+    "last_price": 3.31
+  },
+  {
+    "symbol": "MMT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (114d < 500d)",
+    "history_days": 114,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MORPHO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (146d < 500d)",
+    "history_days": 146,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MOVE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (444d < 500d)",
+    "history_days": 444,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MOVR/USDT",
+    "passed": false,
+    "reject_reason": "universe_cap (top 200 by volume)",
+    "history_days": 1571,
+    "avg_volume_usdt": 1021316.0635086889,
+    "last_price": 1.242
+  },
+  {
+    "symbol": "MTL/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($470,535 < $1,000,000)",
+    "history_days": 2379,
+    "avg_volume_usdt": 470534.78464800003,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "MUBARAK/USDT",
+    "passed": false,
+    "reject_reason": "short_history (336d < 500d)",
+    "history_days": 336,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NEAR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1961,
+    "avg_volume_usdt": 36600738.536622226,
+    "last_price": 0.989
+  },
+  {
+    "symbol": "NEIRO/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000067 < $0.0001)",
+    "history_days": 528,
+    "avg_volume_usdt": 7208041.993045229,
+    "last_price": 6.733e-05
+  },
+  {
+    "symbol": "NEO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 3020,
+    "avg_volume_usdt": 2953144.9917591116,
+    "last_price": 2.645
+  },
+  {
+    "symbol": "NEWT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (247d < 500d)",
+    "history_days": 247,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NEXO/USDT",
+    "passed": false,
+    "reject_reason": "universe_cap (top 200 by volume)",
+    "history_days": 1399,
+    "avg_volume_usdt": 1013941.7230257222,
+    "last_price": 0.833
+  },
+  {
+    "symbol": "NFP/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($891,334 < $1,000,000)",
+    "history_days": 792,
+    "avg_volume_usdt": 891333.7517233335,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NIL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (339d < 500d)",
+    "history_days": 339,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NMR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2017,
+    "avg_volume_usdt": 4508715.804844446,
+    "last_price": 7.7
+  },
+  {
+    "symbol": "NOM/USDT",
+    "passed": false,
+    "reject_reason": "short_history (148d < 500d)",
+    "history_days": 148,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NOT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 651,
+    "avg_volume_usdt": 1660657.0231695496,
+    "last_price": 0.000362
+  },
+  {
+    "symbol": "NTRN/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($988,662 < $1,000,000)",
+    "history_days": 870,
+    "avg_volume_usdt": 988661.7016267778,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "NXPC/USDT",
+    "passed": false,
+    "reject_reason": "short_history (287d < 500d)",
+    "history_days": 287,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "OG/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1884,
+    "avg_volume_usdt": 7266233.819572911,
+    "last_price": 3.01
+  },
+  {
+    "symbol": "OGN/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($782,353 < $1,000,000)",
+    "history_days": 2240,
+    "avg_volume_usdt": 782352.644258278,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "OM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1816,
+    "avg_volume_usdt": 4815257.9704990005,
+    "last_price": 0.0635
+  },
+  {
+    "symbol": "ONDO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (321d < 500d)",
+    "history_days": 321,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ONE/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($960,142 < $1,000,000)",
+    "history_days": 2462,
+    "avg_volume_usdt": 960142.0632133279,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ONG/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($849,355 < $1,000,000)",
+    "history_days": 2567,
+    "avg_volume_usdt": 849354.5228122221,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ONT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($985,568 < $1,000,000)",
+    "history_days": 2820,
+    "avg_volume_usdt": 985568.1819895334,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "OP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1366,
+    "avg_volume_usdt": 11620240.062744277,
+    "last_price": 0.1178
+  },
+  {
+    "symbol": "OPEN/USDT",
+    "passed": false,
+    "reject_reason": "short_history (171d < 500d)",
+    "history_days": 171,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ORCA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (447d < 500d)",
+    "history_days": 447,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ORDI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 842,
+    "avg_volume_usdt": 5379456.223163,
+    "last_price": 2.392
+  },
+  {
+    "symbol": "OSMO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($450,270 < $1,000,000)",
+    "history_days": 1217,
+    "avg_volume_usdt": 450270.2918499,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "OXT/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($438,594 < $1,000,000)",
+    "history_days": 1984,
+    "avg_volume_usdt": 438593.71638111107,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PARTI/USDT",
+    "passed": false,
+    "reject_reason": "short_history (338d < 500d)",
+    "history_days": 338,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PAXG/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PENDLE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 969,
+    "avg_volume_usdt": 8146264.990731112,
+    "last_price": 1.247
+  },
+  {
+    "symbol": "PENGU/USDT",
+    "passed": false,
+    "reject_reason": "short_history (436d < 500d)",
+    "history_days": 436,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PEOPLE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1526,
+    "avg_volume_usdt": 2715526.1703402386,
+    "last_price": 0.00632
+  },
+  {
+    "symbol": "PEPE/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000004 < $0.0001)",
+    "history_days": 1028,
+    "avg_volume_usdt": 66525741.89606534,
+    "last_price": 4e-06
+  },
+  {
+    "symbol": "PHA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1707,
+    "avg_volume_usdt": 1392446.296425,
+    "last_price": 0.0233
+  },
+  {
+    "symbol": "PHB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1196,
+    "avg_volume_usdt": 1528718.9792005555,
+    "last_price": 0.14
+  },
+  {
+    "symbol": "PIVX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 833,
+    "avg_volume_usdt": 1771942.7225899997,
+    "last_price": 0.0833
+  },
+  {
+    "symbol": "PIXEL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 738,
+    "avg_volume_usdt": 1640320.388317833,
+    "last_price": 0.00498
+  },
+  {
+    "symbol": "PLUME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (192d < 500d)",
+    "history_days": 192,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PNUT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (472d < 500d)",
+    "history_days": 472,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "POL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 531,
+    "avg_volume_usdt": 11551294.215421332,
+    "last_price": 0.1132
+  },
+  {
+    "symbol": "POLYX/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($992,111 < $1,000,000)",
+    "history_days": 1228,
+    "avg_volume_usdt": 992110.9658571667,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "POND/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($338,586 < $1,000,000)",
+    "history_days": 1815,
+    "avg_volume_usdt": 338586.4609379028,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PORTAL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 728,
+    "avg_volume_usdt": 1299942.3232592386,
+    "last_price": 0.01219
+  },
+  {
+    "symbol": "PORTO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($468,128 < $1,000,000)",
+    "history_days": 1563,
+    "avg_volume_usdt": 468127.56315794436,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "POWR/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($319,696 < $1,000,000)",
+    "history_days": 1562,
+    "avg_volume_usdt": 319695.6184327778,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PROM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1077,
+    "avg_volume_usdt": 2153046.9393625003,
+    "last_price": 1.235
+  },
+  {
+    "symbol": "PROVE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (205d < 500d)",
+    "history_days": 205,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PSG/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($640,311 < $1,000,000)",
+    "history_days": 1893,
+    "avg_volume_usdt": 640311.302629389,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PUMP/USDT",
+    "passed": false,
+    "reject_reason": "short_history (168d < 500d)",
+    "history_days": 168,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PUNDIX/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($879,322 < $1,000,000)",
+    "history_days": 1784,
+    "avg_volume_usdt": 879322.0769729445,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "PYR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1553,
+    "avg_volume_usdt": 1984845.115725933,
+    "last_price": 0.309
+  },
+  {
+    "symbol": "PYTH/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 755,
+    "avg_volume_usdt": 6194145.985145559,
+    "last_price": 0.0518
+  },
+  {
+    "symbol": "QI/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($636,420 < $1,000,000)",
+    "history_days": 1564,
+    "avg_volume_usdt": 636419.8534731665,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "QKC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($369,825 < $1,000,000)",
+    "history_days": 1077,
+    "avg_volume_usdt": 369825.3765349611,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "QNT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1673,
+    "avg_volume_usdt": 2918097.486212055,
+    "last_price": 64.04
+  },
+  {
+    "symbol": "QTUM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2901,
+    "avg_volume_usdt": 1821259.0026283336,
+    "last_price": 0.892
+  },
+  {
+    "symbol": "QUICK/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($438,804 < $1,000,000)",
+    "history_days": 1655,
+    "avg_volume_usdt": 438804.35475133336,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RAD/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1603,
+    "avg_volume_usdt": 1154512.752415,
+    "last_price": 0.234
+  },
+  {
+    "symbol": "RARE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1599,
+    "avg_volume_usdt": 1817822.7829392222,
+    "last_price": 0.0182
+  },
+  {
+    "symbol": "RAY/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1661,
+    "avg_volume_usdt": 4919244.039585556,
+    "last_price": 0.603
+  },
+  {
+    "symbol": "RDNT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1064,
+    "avg_volume_usdt": 1640251.3044256668,
+    "last_price": 0.00531
+  },
+  {
+    "symbol": "RED/USDT",
+    "passed": false,
+    "reject_reason": "short_history (363d < 500d)",
+    "history_days": 363,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RENDER/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 580,
+    "avg_volume_usdt": 9217651.769564666,
+    "last_price": 1.378
+  },
+  {
+    "symbol": "REQ/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($255,419 < $1,000,000)",
+    "history_days": 1651,
+    "avg_volume_usdt": 255419.4131388889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RESOLV/USDT",
+    "passed": false,
+    "reject_reason": "short_history (260d < 500d)",
+    "history_days": 260,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "REZ/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 667,
+    "avg_volume_usdt": 2379865.048116856,
+    "last_price": 0.00293
+  },
+  {
+    "symbol": "RIF/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($527,396 < $1,000,000)",
+    "history_days": 1876,
+    "avg_volume_usdt": 527395.6402033333,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RLC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2296,
+    "avg_volume_usdt": 1316968.3486266667,
+    "last_price": 0.398
+  },
+  {
+    "symbol": "RLUSD/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RONIN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 752,
+    "avg_volume_usdt": 1698819.5254710608,
+    "last_price": 0.0983
+  },
+  {
+    "symbol": "ROSE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1925,
+    "avg_volume_usdt": 4252514.369029051,
+    "last_price": 0.01276
+  },
+  {
+    "symbol": "RPL/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($756,206 < $1,000,000)",
+    "history_days": 1135,
+    "avg_volume_usdt": 756206.4390677777,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "RSR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2009,
+    "avg_volume_usdt": 2567008.818553406,
+    "last_price": 0.001454
+  },
+  {
+    "symbol": "RUNE/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2001,
+    "avg_volume_usdt": 4210038.341537222,
+    "last_price": 0.399
+  },
+  {
+    "symbol": "RVN/USDT",
+    "passed": false,
+    "reject_reason": "universe_cap (top 200 by volume)",
+    "history_days": 2346,
+    "avg_volume_usdt": 1064377.1588254997,
+    "last_price": 0.00579
+  },
+  {
+    "symbol": "S/USDT",
+    "passed": false,
+    "reject_reason": "short_history (406d < 500d)",
+    "history_days": 406,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SAGA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 688,
+    "avg_volume_usdt": 2450221.9922833336,
+    "last_price": 0.0289
+  },
+  {
+    "symbol": "SAHARA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (245d < 500d)",
+    "history_days": 245,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SAND/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2022,
+    "avg_volume_usdt": 3966018.4676348884,
+    "last_price": 0.08
+  },
+  {
+    "symbol": "SANTOS/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1548,
+    "avg_volume_usdt": 2025337.5171476114,
+    "last_price": 1.497
+  },
+  {
+    "symbol": "SAPIEN/USDT",
+    "passed": false,
+    "reject_reason": "short_history (112d < 500d)",
+    "history_days": 112,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($378,102 < $1,000,000)",
+    "history_days": 2061,
+    "avg_volume_usdt": 378102.0682891945,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SCR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 503,
+    "avg_volume_usdt": 1194721.2848167557,
+    "last_price": 0.04122
+  },
+  {
+    "symbol": "SCRT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1497,
+    "avg_volume_usdt": 1448469.0184876665,
+    "last_price": 0.0813
+  },
+  {
+    "symbol": "SEI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 926,
+    "avg_volume_usdt": 17159779.867976222,
+    "last_price": 0.0674
+  },
+  {
+    "symbol": "SENT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (35d < 500d)",
+    "history_days": 35,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SFP/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($788,682 < $1,000,000)",
+    "history_days": 1844,
+    "avg_volume_usdt": 788682.2832672222,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SHELL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (364d < 500d)",
+    "history_days": 364,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SHIB/USDT",
+    "passed": false,
+    "reject_reason": "dust_price ($0.000006 < $0.0001)",
+    "history_days": 1753,
+    "avg_volume_usdt": 13064563.613710763,
+    "last_price": 6e-06
+  },
+  {
+    "symbol": "SIGN/USDT",
+    "passed": false,
+    "reject_reason": "short_history (304d < 500d)",
+    "history_days": 304,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SKL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1913,
+    "avg_volume_usdt": 2550919.6823542216,
+    "last_price": 0.00639
+  },
+  {
+    "symbol": "SKY/USDT",
+    "passed": false,
+    "reject_reason": "short_history (162d < 500d)",
+    "history_days": 162,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SLP/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($913,127 < $1,000,000)",
+    "history_days": 1763,
+    "avg_volume_usdt": 913126.7187993221,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SNX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2058,
+    "avg_volume_usdt": 7612760.938325555,
+    "last_price": 0.364
+  },
+  {
+    "symbol": "SOL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2025,
+    "avg_volume_usdt": 583836590.9818747,
+    "last_price": 82.24
+  },
+  {
+    "symbol": "SOLV/USDT",
+    "passed": false,
+    "reject_reason": "short_history (405d < 500d)",
+    "history_days": 405,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SOMI/USDT",
+    "passed": false,
+    "reject_reason": "short_history (177d < 500d)",
+    "history_days": 177,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SOPH/USDT",
+    "passed": false,
+    "reject_reason": "short_history (274d < 500d)",
+    "history_days": 274,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SPELL/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($849,078 < $1,000,000)",
+    "history_days": 1525,
+    "avg_volume_usdt": 849078.0256149354,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SPK/USDT",
+    "passed": false,
+    "reject_reason": "short_history (254d < 500d)",
+    "history_days": 254,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SSV/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1098,
+    "avg_volume_usdt": 2267058.2066941448,
+    "last_price": 2.922
+  },
+  {
+    "symbol": "STEEM/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($690,695 < $1,000,000)",
+    "history_days": 1406,
+    "avg_volume_usdt": 690694.5751324444,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "STG/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1287,
+    "avg_volume_usdt": 1609060.4943067227,
+    "last_price": 0.13
+  },
+  {
+    "symbol": "STO/USDT",
+    "passed": false,
+    "reject_reason": "short_history (300d < 500d)",
+    "history_days": 300,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "STORJ/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2037,
+    "avg_volume_usdt": 1218338.6426455558,
+    "last_price": 0.0949
+  },
+  {
+    "symbol": "STRAX/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($832,602 < $1,000,000)",
+    "history_days": 1919,
+    "avg_volume_usdt": 832602.2264281667,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "STRK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 737,
+    "avg_volume_usdt": 16959620.703251835,
+    "last_price": 0.042
+  },
+  {
+    "symbol": "STX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2316,
+    "avg_volume_usdt": 2660635.064516834,
+    "last_price": 0.2425
+  },
+  {
+    "symbol": "SUI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1030,
+    "avg_volume_usdt": 95412715.94093274,
+    "last_price": 0.8841
+  },
+  {
+    "symbol": "SUN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1981,
+    "avg_volume_usdt": 4765270.291133444,
+    "last_price": 0.01653
+  },
+  {
+    "symbol": "SUPER/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1799,
+    "avg_volume_usdt": 2963971.1872133333,
+    "last_price": 0.1104
+  },
+  {
+    "symbol": "SUSHI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2004,
+    "avg_volume_usdt": 2532941.9205895197,
+    "last_price": 0.1968
+  },
+  {
+    "symbol": "SXP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2047,
+    "avg_volume_usdt": 1094650.3036882777,
+    "last_price": 0.0223
+  },
+  {
+    "symbol": "SXT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (294d < 500d)",
+    "history_days": 294,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SYN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1100,
+    "avg_volume_usdt": 1107402.2415620557,
+    "last_price": 0.0463
+  },
+  {
+    "symbol": "SYRUP/USDT",
+    "passed": false,
+    "reject_reason": "short_history (296d < 500d)",
+    "history_days": 296,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "SYS/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($515,837 < $1,000,000)",
+    "history_days": 1616,
+    "avg_volume_usdt": 515836.7268705001,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "T/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($676,958 < $1,000,000)",
+    "history_days": 1462,
+    "avg_volume_usdt": 676957.8141299501,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TAO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 686,
+    "avg_volume_usdt": 40010555.586423226,
+    "last_price": 174.1
+  },
+  {
+    "symbol": "TFUEL/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($533,979 < $1,000,000)",
+    "history_days": 2470,
+    "avg_volume_usdt": 533978.5819031666,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "THE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (456d < 500d)",
+    "history_days": 456,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "THETA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2514,
+    "avg_volume_usdt": 2407250.2859327774,
+    "last_price": 0.182
+  },
+  {
+    "symbol": "TIA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 849,
+    "avg_volume_usdt": 9954090.01397001,
+    "last_price": 0.3077
+  },
+  {
+    "symbol": "TKO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($377,798 < $1,000,000)",
+    "history_days": 1786,
+    "avg_volume_usdt": 377797.79250244447,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TLM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1780,
+    "avg_volume_usdt": 1221679.5365811223,
+    "last_price": 0.001592
+  },
+  {
+    "symbol": "TNSR/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 689,
+    "avg_volume_usdt": 8401652.854097556,
+    "last_price": 0.0486
+  },
+  {
+    "symbol": "TON/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 567,
+    "avg_volume_usdt": 12780557.576062724,
+    "last_price": 1.299
+  },
+  {
+    "symbol": "TOWNS/USDT",
+    "passed": false,
+    "reject_reason": "short_history (205d < 500d)",
+    "history_days": 205,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TRB/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2007,
+    "avg_volume_usdt": 3507722.4533884446,
+    "last_price": 14.23
+  },
+  {
+    "symbol": "TREE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (212d < 500d)",
+    "history_days": 212,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TRU/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($957,173 < $1,000,000)",
+    "history_days": 1864,
+    "avg_volume_usdt": 957172.77585,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TRUMP/USDT",
+    "passed": false,
+    "reject_reason": "short_history (403d < 500d)",
+    "history_days": 403,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TRX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2817,
+    "avg_volume_usdt": 79706196.43027939,
+    "last_price": 0.2867
+  },
+  {
+    "symbol": "TST/USDT",
+    "passed": false,
+    "reject_reason": "short_history (382d < 500d)",
+    "history_days": 382,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TURBO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 528,
+    "avg_volume_usdt": 3216820.543858872,
+    "last_price": 0.00099
+  },
+  {
+    "symbol": "TURTLE/USDT",
+    "passed": false,
+    "reject_reason": "short_history (127d < 500d)",
+    "history_days": 127,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TUSD/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TUT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (336d < 500d)",
+    "history_days": 336,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "TWT/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1856,
+    "avg_volume_usdt": 6155215.371347223,
+    "last_price": 0.507
+  },
+  {
+    "symbol": "U/USDT",
+    "passed": false,
+    "reject_reason": "short_history (44d < 500d)",
+    "history_days": 44,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "UMA/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1996,
+    "avg_volume_usdt": 1291612.3057300001,
+    "last_price": 0.456
+  },
+  {
+    "symbol": "UNI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1988,
+    "avg_volume_usdt": 37776978.71545066,
+    "last_price": 3.5
+  },
+  {
+    "symbol": "USD1/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "USDC/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "USDE/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "USDP/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "USTC/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "USUAL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (464d < 500d)",
+    "history_days": 464,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "UTK/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($431,084 < $1,000,000)",
+    "history_days": 1973,
+    "avg_volume_usdt": 431083.8016826666,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "VANA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (437d < 500d)",
+    "history_days": 437,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "VANRY/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 818,
+    "avg_volume_usdt": 1225112.3885099057,
+    "last_price": 0.005458
+  },
+  {
+    "symbol": "VELODROME/USDT",
+    "passed": false,
+    "reject_reason": "short_history (440d < 500d)",
+    "history_days": 440,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "VET/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2773,
+    "avg_volume_usdt": 4554027.1367795,
+    "last_price": 0.0072
+  },
+  {
+    "symbol": "VIC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($546,174 < $1,000,000)",
+    "history_days": 825,
+    "avg_volume_usdt": 546174.4300482278,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "VIRTUAL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (321d < 500d)",
+    "history_days": 321,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "VTHO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($691,756 < $1,000,000)",
+    "history_days": 2050,
+    "avg_volume_usdt": 691755.9018755889,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "W/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 694,
+    "avg_volume_usdt": 6233493.754169888,
+    "last_price": 0.0191
+  },
+  {
+    "symbol": "WAL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (139d < 500d)",
+    "history_days": 139,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WAN/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($405,412 < $1,000,000)",
+    "history_days": 2375,
+    "avg_volume_usdt": 405412.0855822222,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WAXP/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($465,596 < $1,000,000)",
+    "history_days": 1648,
+    "avg_volume_usdt": 465596.44874727784,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WBETH/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WBTC/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WCT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (317d < 500d)",
+    "history_days": 317,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WIF/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 723,
+    "avg_volume_usdt": 20143622.772685222,
+    "last_price": 0.195
+  },
+  {
+    "symbol": "WIN/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($845,266 < $1,000,000)",
+    "history_days": 2401,
+    "avg_volume_usdt": 845265.5556558394,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WLD/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 948,
+    "avg_volume_usdt": 41754414.16279994,
+    "last_price": 0.3894
+  },
+  {
+    "symbol": "WLFI/USDT",
+    "passed": false,
+    "reject_reason": "short_history (178d < 500d)",
+    "history_days": 178,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "WOO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($969,314 < $1,000,000)",
+    "history_days": 1479,
+    "avg_volume_usdt": 969313.5273352779,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "XAI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 779,
+    "avg_volume_usdt": 2603243.821847583,
+    "last_price": 0.00929
+  },
+  {
+    "symbol": "XEC/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($611,551 < $1,000,000)",
+    "history_days": 1637,
+    "avg_volume_usdt": 611550.6086712164,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "XLM/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2828,
+    "avg_volume_usdt": 15486027.184777223,
+    "last_price": 0.1535
+  },
+  {
+    "symbol": "XNO/USDT",
+    "passed": false,
+    "reject_reason": "low_volume ($848,836 < $1,000,000)",
+    "history_days": 1490,
+    "avg_volume_usdt": 848835.7899621113,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "XPL/USDT",
+    "passed": false,
+    "reject_reason": "short_history (154d < 500d)",
+    "history_days": 154,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "XRP/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2855,
+    "avg_volume_usdt": 290254216.0102421,
+    "last_price": 1.374
+  },
+  {
+    "symbol": "XTZ/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2347,
+    "avg_volume_usdt": 1886637.1824149443,
+    "last_price": 0.375
+  },
+  {
+    "symbol": "XUSD/USDT",
+    "passed": false,
+    "reject_reason": "skip_list",
+    "history_days": 0,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "XVG/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1726,
+    "avg_volume_usdt": 4454094.2310832,
+    "last_price": 0.005901
+  },
+  {
+    "symbol": "XVS/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1969,
+    "avg_volume_usdt": 1232123.9738255555,
+    "last_price": 3.12
+  },
+  {
+    "symbol": "YB/USDT",
+    "passed": false,
+    "reject_reason": "short_history (134d < 500d)",
+    "history_days": 134,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "YFI/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2026,
+    "avg_volume_usdt": 1227843.305448611,
+    "last_price": 2683.0
+  },
+  {
+    "symbol": "YGG/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 1616,
+    "avg_volume_usdt": 4520224.9702252215,
+    "last_price": 0.0409
+  },
+  {
+    "symbol": "ZAMA/USDT",
+    "passed": false,
+    "reject_reason": "short_history (24d < 500d)",
+    "history_days": 24,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ZBT/USDT",
+    "passed": false,
+    "reject_reason": "short_history (132d < 500d)",
+    "history_days": 132,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ZEC/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2534,
+    "avg_volume_usdt": 215730549.6358468,
+    "last_price": 239.18
+  },
+  {
+    "symbol": "ZEN/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2061,
+    "avg_volume_usdt": 25585757.616305724,
+    "last_price": 5.517
+  },
+  {
+    "symbol": "ZIL/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2564,
+    "avg_volume_usdt": 1467019.4685846113,
+    "last_price": 0.00417
+  },
+  {
+    "symbol": "ZK/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 619,
+    "avg_volume_usdt": 12504820.991861606,
+    "last_price": 0.01974
+  },
+  {
+    "symbol": "ZKC/USDT",
+    "passed": false,
+    "reject_reason": "short_history (164d < 500d)",
+    "history_days": 164,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ZKP/USDT",
+    "passed": false,
+    "reject_reason": "short_history (50d < 500d)",
+    "history_days": 50,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  },
+  {
+    "symbol": "ZRO/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 616,
+    "avg_volume_usdt": 8206505.839211778,
+    "last_price": 1.482
+  },
+  {
+    "symbol": "ZRX/USDT",
+    "passed": true,
+    "reject_reason": "",
+    "history_days": 2555,
+    "avg_volume_usdt": 1756286.0718072222,
+    "last_price": 0.1036
+  },
+  {
+    "symbol": "\u5e01\u5b89\u4eba\u751f/USDT",
+    "passed": false,
+    "reject_reason": "short_history (50d < 500d)",
+    "history_days": 50,
+    "avg_volume_usdt": 0.0,
+    "last_price": 0.0
+  }
+]

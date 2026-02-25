@@ -1,0 +1,149 @@
+{
+  "generated": "2026-02-25T13:28:57.784762",
+  "total_tradeable": 9,
+  "tiers": {
+    "tier_1": [
+      "BNB",
+      "ADA"
+    ],
+    "tier_2": [
+      "ONE",
+      "ANKR",
+      "MDT",
+      "CVC",
+      "IOTX"
+    ],
+    "tier_3": [
+      "CELR",
+      "BTC"
+    ]
+  },
+  "symbols": [
+    {
+      "symbol": "BNB",
+      "tier": "Tier 1",
+      "score": 97.1,
+      "return_pct": 19028.5,
+      "return_per_year": 1585.7,
+      "profit_factor": 47.34,
+      "sharpe_ratio": 0.48,
+      "win_rate": 50.0,
+      "trades": 12,
+      "max_drawdown": 20.6,
+      "data_years": 12.0,
+      "avg_duration_days": 112.5
+    },
+    {
+      "symbol": "ADA",
+      "tier": "Tier 1",
+      "score": 83.8,
+      "return_pct": 3043.5,
+      "return_per_year": 267.0,
+      "profit_factor": 18.82,
+      "sharpe_ratio": 0.41,
+      "win_rate": 62.5,
+      "trades": 8,
+      "max_drawdown": 45.1,
+      "data_years": 11.4,
+      "avg_duration_days": 109.4
+    },
+    {
+      "symbol": "ONE",
+      "tier": "Tier 2",
+      "score": 69.5,
+      "return_pct": 2566.3,
+      "return_per_year": 261.9,
+      "profit_factor": 16.65,
+      "sharpe_ratio": 0.35,
+      "win_rate": 44.4,
+      "trades": 9,
+      "max_drawdown": 67.9,
+      "data_years": 9.8,
+      "avg_duration_days": 91.6
+    },
+    {
+      "symbol": "ANKR",
+      "tier": "Tier 2",
+      "score": 68.6,
+      "return_pct": 1586.3,
+      "return_per_year": 165.2,
+      "profit_factor": 15.29,
+      "sharpe_ratio": 0.47,
+      "win_rate": 50.0,
+      "trades": 8,
+      "max_drawdown": 36.3,
+      "data_years": 9.6,
+      "avg_duration_days": 57.1
+    },
+    {
+      "symbol": "MDT",
+      "tier": "Tier 2",
+      "score": 65.2,
+      "return_pct": 1596.0,
+      "return_per_year": 192.3,
+      "profit_factor": 10.59,
+      "sharpe_ratio": 0.77,
+      "win_rate": 85.7,
+      "trades": 7,
+      "max_drawdown": 52.6,
+      "data_years": 8.3,
+      "avg_duration_days": 112.1
+    },
+    {
+      "symbol": "CVC",
+      "tier": "Tier 2",
+      "score": 63.7,
+      "return_pct": 1292.5,
+      "return_per_year": 146.9,
+      "profit_factor": 12.16,
+      "sharpe_ratio": 0.43,
+      "win_rate": 55.6,
+      "trades": 9,
+      "max_drawdown": 34.7,
+      "data_years": 8.8,
+      "avg_duration_days": 99.1
+    },
+    {
+      "symbol": "IOTX",
+      "tier": "Tier 2",
+      "score": 62.6,
+      "return_pct": 1309.0,
+      "return_per_year": 143.8,
+      "profit_factor": 8.24,
+      "sharpe_ratio": 0.56,
+      "win_rate": 55.6,
+      "trades": 9,
+      "max_drawdown": 47.5,
+      "data_years": 9.1,
+      "avg_duration_days": 107.1
+    },
+    {
+      "symbol": "CELR",
+      "tier": "Tier 3",
+      "score": 47.8,
+      "return_pct": 762.1,
+      "return_per_year": 76.2,
+      "profit_factor": 12.71,
+      "sharpe_ratio": 0.34,
+      "win_rate": 71.4,
+      "trades": 7,
+      "max_drawdown": 53.9,
+      "data_years": 10.0,
+      "avg_duration_days": 96.3
+    },
+    {
+      "symbol": "BTC",
+      "tier": "Tier 3",
+      "score": 35.6,
+      "return_pct": 411.9,
+      "return_per_year": 33.5,
+      "profit_factor": 5.43,
+      "sharpe_ratio": 0.33,
+      "win_rate": 50.0,
+      "trades": 8,
+      "max_drawdown": 49.1,
+      "data_years": 12.3,
+      "avg_duration_days": 182.6
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Mục đích: 
+-   Tạo 1 expert MT5 hỗ trợ việc đặt stop loss (SL) tự động ngay sau khi vào lệnh với khoảng cách SL cố định.
+Yêu cầu:
+    - Dùng cho 1 số cặp thông dụng, đặc biệt là XAUUSD, BTCUSD.
+    - Cho phép cấu hình khoảng cách SL theo USD riêng cho từng symbol qua input, ví dụ: XAUUSD=1,BTCUSD=100.
+    - Tất cả các lệnh mở thuộc các symbol trong danh sách đều phải được kiểm tra và đảm bảo có SL, không bỏ qua bất kỳ lệnh nào.
+    - Chỉ cài SL 1 lần cho mỗi lệnh: Nếu lệnh chưa có SL thì tự động thêm SL vào, sau đó không can thiệp nữa.
+    - Nếu sau đó tôi có can thiệp vào việc thay đổi SL thì expert này sẽ không động tới SL tôi đã thay đổi đó nữa.
+    - SL được đặt cách giá entry đúng số USD đã cấu hình, không phụ thuộc lot hay point.

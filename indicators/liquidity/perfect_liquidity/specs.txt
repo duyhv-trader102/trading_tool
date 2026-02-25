@@ -1,0 +1,8 @@
+mục đích: tạo indicator phát hiện các thành phần được coi là perfect liquidity
+cách xác định:
+1. perfect db/dt, Tripple tops/Bottom
+- trong maxbars candles, tìm tất cả các nến bằng nhau high hoặc low 1 cách hoàn hảo (high i == high i-1 == high i-20) tưởng tự với low.
+- nối các điểm bằng nhau 1 cách hoàn hảo này với nhau lại.
+2. perfect trendline
+- n high/low của n cây nến tạo thành 1 đường thẳng theo trend tăng hoặc trend giảm tuyến tính (y=ax+b)
+3. nowick candle

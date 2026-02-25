@@ -1,0 +1,17 @@
+*/.vscode/
+.vscode/
+.venv/
+__pycache__/
+../settings.json
+
+# ============ VNStock ============
+python/market_regime_scanner/apps/vnstock/output/
+python/market_regime_scanner/data/vnstock/
+
+# ============ Secrets ============
+.env
+*.env
+!.env.example
+
+# ============ Private strategy / IP ============
+my_strategy/
