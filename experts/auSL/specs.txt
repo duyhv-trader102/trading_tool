@@ -9,3 +9,8 @@ Yêu cầu:
     - SL được đặt cách giá entry đúng số USD đã cấu hình, không phụ thuộc lot hay point.
     - Khi đặt SL phải giữ nguyên TP hiện tại của lệnh (không được gửi tp=0 lên broker).
     - Symbol WTI được nhận diện theo các tên: WTI, USOIL, OIL (tùy broker đặt tên khác nhau).
+    - SL phải được NormalizeDouble theo đúng digits của symbol (không dùng Digits() của chart).
+    - Phải kiểm tra SYMBOL_TRADE_STOPS_LEVEL: nếu SL quá gần giá hiện tại thì tự động điều chỉnh.
+    - Phải kiểm tra quyền trade (TERMINAL_TRADE_ALLOWED, MQL_TRADE_ALLOWED) trước khi gửi lệnh.
+    - Có cơ chế cooldown/retry: nếu OrderSend fail thì không retry liên tục mỗi tick (tối đa 3 lần, mỗi lần cách 30 giây).
+    - Kiểm tra retcode == TRADE_RETCODE_DONE để xác nhận thành công, không chỉ dựa vào return value của OrderSend.
