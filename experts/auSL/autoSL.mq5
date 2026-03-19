@@ -37,7 +37,7 @@ void OnTick()
          string symbol = PositionGetString(POSITION_SYMBOL);
          double sl     = PositionGetDouble(POSITION_SL);
          double price  = PositionGetDouble(POSITION_PRICE_OPEN);
-         int type      = PositionGetInteger(POSITION_TYPE);
+         long type     = PositionGetInteger(POSITION_TYPE);
 
          // Chỉ áp dụng cho các symbol chứa "XAUUSD" và lệnh chưa có SL
          if(StringFind(symbol, "XAUUSD") == 0 && sl == 0)
@@ -50,6 +50,8 @@ void OnTick()
             else
                continue;
 
+            double existing_tp = PositionGetDouble(POSITION_TP); // Giữ nguyên TP hiện tại
+
             MqlTradeRequest req;
             MqlTradeResult  res;
             ZeroMemory(req);
@@ -58,6 +60,7 @@ void OnTick()
             req.position = ticket;
             req.symbol   = symbol;
             req.sl       = new_sl;
+            req.tp       = existing_tp; // Không xóa TP
 
             if(!OrderSend(req, res))
                Print("Lỗi đặt SL cho lệnh #", ticket, " - ", GetLastError(), " - retcode: ", res.retcode);
