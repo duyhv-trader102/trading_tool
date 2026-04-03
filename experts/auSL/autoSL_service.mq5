@@ -1,14 +1,15 @@
 //+------------------------------------------------------------------+
-//| Expert Advisor: AutoSetSL                                        |
+//| Service: AutoSetSL                                               |
+//| Chạy nền, không phụ thuộc chart, không bị disable khi đổi TF    |
 //+------------------------------------------------------------------+
 #property copyright "GitHub Copilot"
-#property version   "2.00"
-#property strict
+#property version   "3.00"
+#property service
 
 input double FixedSL_XAU = 1.0;    // Khoảng cách SL cho XAUUSD (USD)
 input double FixedSL_BTC = 100.0;  // Khoảng cách SL cho BTCUSD (USD)
 input double FixedSL_WTI = 0.5;    // Khoảng cách SL cho WTI/USOIL (USD)
-input int    CheckIntervalSec = 2;  // Kiểm tra mỗi bao nhiêu giây
+input int    CheckIntervalMs = 2000; // Kiểm tra mỗi bao nhiêu ms
 
 // Lưu ticket đã thất bại để tránh spam retry
 struct FailedTicketInfo
@@ -19,29 +20,8 @@ struct FailedTicketInfo
   };
 
 FailedTicketInfo g_failedTickets[];
-const int        MAX_RETRIES       = 3;
-const int        RETRY_COOLDOWN    = 30; // giây
-
-//+------------------------------------------------------------------+
-//| Lấy tên lý do deinit                                            |
-//+------------------------------------------------------------------+
-string GetDeinitReasonText(int reason)
-  {
-   switch(reason)
-     {
-      case REASON_PROGRAM:     return "EA bị gỡ khỏi chart";
-      case REASON_REMOVE:      return "EA bị xóa khỏi chart";
-      case REASON_RECOMPILE:   return "EA được recompile";
-      case REASON_CHARTCHANGE: return "Symbol hoặc timeframe thay đổi";
-      case REASON_CHARTCLOSE:  return "Chart bị đóng";
-      case REASON_PARAMETERS:  return "Input parameters thay đổi";
-      case REASON_ACCOUNT:     return "Tài khoản thay đổi";
-      case REASON_TEMPLATE:    return "Template mới được áp dụng";
-      case REASON_INITFAILED:  return "OnInit trả về lỗi";
-      case REASON_CLOSE:       return "Terminal đóng";
-      default:                 return "Không rõ (" + IntegerToString(reason) + ")";
-     }
-  }
+const int        MAX_RETRIES    = 3;
+const int        RETRY_COOLDOWN = 30; // giây
 
 //+------------------------------------------------------------------+
 //| Kiểm tra ticket đã bị block chưa                                |
@@ -137,17 +117,10 @@ double GetFixedSL(string symbol)
 //+------------------------------------------------------------------+
 void ProcessPositions()
   {
-   // Kiểm tra quyền trade
    if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED))
       return;
    if(!MQLInfoInteger(MQL_TRADE_ALLOWED))
       return;
-
-   // Rate limit: không xử lý quá thường xuyên
-   static datetime lastProcess = 0;
-   if(TimeCurrent() - lastProcess < CheckIntervalSec)
-      return;
-   lastProcess = TimeCurrent();
 
    // Dọn dẹp ticket cũ định kỳ
    static datetime lastCleanup = 0;
@@ -176,7 +149,7 @@ void ProcessPositions()
       // Xác định khoảng cách SL
       double fixed_sl = GetFixedSL(symbol);
       if(fixed_sl <= 0)
-         continue; // Symbol không hỗ trợ
+         continue;
 
       // Kiểm tra cooldown/max retry
       if(IsTicketBlocked(ticket))
@@ -201,10 +174,7 @@ void ProcessPositions()
 
       // Kiểm tra market data có sẵn không
       if(bid <= 0 || ask <= 0 || sym_point <= 0)
-        {
-         Print("Market data chưa sẵn sàng cho ", symbol, " (bid=", bid, " ask=", ask, ")");
-         continue; // Không record failed — thử lại tick sau
-        }
+         continue;
 
       new_sl = NormalizeDouble(new_sl, sym_digits);
 
@@ -226,7 +196,7 @@ void ProcessPositions()
            }
         }
 
-      // Validate SL logic: BUY SL phải dưới bid, SELL SL phải trên ask
+      // Validate SL logic
       if(type == POSITION_TYPE_BUY && new_sl >= bid)
         {
          Print("SL BUY #", ticket, " >= bid (", new_sl, " >= ", bid, "). Bỏ qua.");
@@ -285,43 +255,22 @@ void ProcessPositions()
   }
 
 //+------------------------------------------------------------------+
-//| Expert initialization function                                   |
+//| Service main function — vòng lặp chạy mãi                      |
 //+------------------------------------------------------------------+
-int OnInit()
+void OnStart()
   {
-   ArrayResize(g_failedTickets, 0);
-   // Dùng Timer để không phụ thuộc vào tick của chart
-   EventSetTimer(CheckIntervalSec);
-   Print("=== AutoSetSL EA v2.00 STARTED ===");
+   Print("=== AutoSetSL SERVICE v3.00 STARTED ===");
    Print("SL_XAU=", FixedSL_XAU, " SL_BTC=", FixedSL_BTC, " SL_WTI=", FixedSL_WTI);
-   Print("CheckInterval=", CheckIntervalSec, "s, MaxRetries=", MAX_RETRIES, ", Cooldown=", RETRY_COOLDOWN, "s");
-   return(INIT_SUCCEEDED);
-  }
+   Print("CheckInterval=", CheckIntervalMs, "ms, MaxRetries=", MAX_RETRIES, ", Cooldown=", RETRY_COOLDOWN, "s");
 
-//+------------------------------------------------------------------+
-//| Expert deinitialization function                                 |
-//+------------------------------------------------------------------+
-void OnDeinit(const int reason)
-  {
-   EventKillTimer();
-   Print("=== AutoSetSL EA STOPPED === Lý do: ", GetDeinitReasonText(reason));
-   if(reason == REASON_CHARTCHANGE)
-      Alert("AutoSetSL: EA bị tắt vì đổi symbol/timeframe! Hãy bật lại Algo Trading hoặc dùng chart riêng cho EA.");
-  }
+   ArrayResize(g_failedTickets, 0);
 
-//+------------------------------------------------------------------+
-//| Timer event — backup khi không có tick                           |
-//+------------------------------------------------------------------+
-void OnTimer()
-  {
-   ProcessPositions();
-  }
+   while(!IsStopped())
+     {
+      ProcessPositions();
+      Sleep(CheckIntervalMs);
+     }
 
-//+------------------------------------------------------------------+
-//| Tick event                                                       |
-//+------------------------------------------------------------------+
-void OnTick()
-  {
-   ProcessPositions();
+   Print("=== AutoSetSL SERVICE STOPPED ===");
   }
 //+------------------------------------------------------------------+

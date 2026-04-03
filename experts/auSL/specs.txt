@@ -1,5 +1,16 @@
 Mục đích: 
--   Tạo 1 expert MT5 hỗ trợ việc đặt stop loss (SL) tự động ngay sau khi vào lệnh với khoảng cách SL cố định.
+-   Tạo 1 chương trình MT5 hỗ trợ việc đặt stop loss (SL) tự động ngay sau khi vào lệnh với khoảng cách SL cố định.
+
+Files:
+    - autoSL.mq5: Phiên bản EA (gắn vào chart). Sẽ bị disable nếu đổi timeframe/symbol trên chart.
+    - autoSL_service.mq5: Phiên bản Service (KHUYẾN NGHỊ). Chạy nền, không phụ thuộc chart, không bị disable.
+
+Cách sử dụng Service:
+    1. Compile autoSL_service.mq5 trong MetaEditor (F7)
+    2. Trong Navigator → Services → chuột phải "AutoSetSL_service" → Start
+    3. Service chạy nền mãi mãi, không cần mở chart, không bị ảnh hưởng khi đổi TF/symbol.
+    4. Để dừng: chuột phải → Stop.
+
 Yêu cầu:
     - Dùng cho 1 số cặp thông dụng, đặc biệt là XAUUSD, BTCUSD, WTI/USOIL.
     - Cho phép cấu hình khoảng cách SL theo USD riêng cho từng symbol qua input, ví dụ: XAUUSD=1, BTCUSD=100, WTI=0.5.
@@ -14,3 +25,10 @@ Yêu cầu:
     - Phải kiểm tra quyền trade (TERMINAL_TRADE_ALLOWED, MQL_TRADE_ALLOWED) trước khi gửi lệnh.
     - Có cơ chế cooldown/retry: nếu OrderSend fail thì không retry liên tục mỗi tick (tối đa 3 lần, mỗi lần cách 30 giây).
     - Kiểm tra retcode == TRADE_RETCODE_DONE để xác nhận thành công, không chỉ dựa vào return value của OrderSend.
+    - Dùng EventSetTimer + OnTimer làm cơ chế backup, không phụ thuộc hoàn toàn vào OnTick (chart có thể không có tick).
+    - Phải kiểm tra market data (bid/ask > 0) trước khi tính toán SL, tránh gửi SL sai khi data chưa load.
+    - Validate logic: BUY SL phải < bid, SELL SL phải > ask. Nếu không thì bỏ qua.
+    - Có rate limit (CheckIntervalSec) để không xử lý quá thường xuyên (mặc định 2 giây).
+    - OnDeinit phải log chi tiết lý do EA dừng (REASON_PROGRAM, REASON_CHARTCLOSE, v.v.) để debug.
+    - Khi điều chỉnh SL theo STOPLEVEL, phải trừ/cộng thêm 1 point buffer để tránh bị reject sát biên.
+    - Phiên bản Service dùng #property service + vòng lặp OnStart() với Sleep(), không phụ thuộc chart hay tick.

@@ -1,0 +1,52 @@
+# OB Wick Detector – Specs
+
+## Mục tiêu
+Phát hiện nến Order Block (OB) có tổng râu 2 chiều (trên + dưới) >= X% spread toàn cây nến.
+
+## Công thức
+    spread      = High - Low
+    upper_wick  = High - max(Open, Close)
+    lower_wick  = min(Open, Close) - Low
+    total_wick  = upper_wick + lower_wick
+    wick_pct    = total_wick / spread × 100
+
+    điều kiện OB: wick_pct >= InpWickPct  (mặc định 50%)
+
+## Files
+| File                      | Platform     | Ghi chú                          |
+|---------------------------|--------------|----------------------------------|
+| ob_wick_detector.pine     | TradingView  | Pine Script v5, overlay          |
+| ob_wick_detector.mq5      | MetaTrader 5 | MQL5 indicator, chart window     |
+
+## Inputs chung
+| Tham số        | Mặc định | Mô tả                                        |
+|----------------|----------|----------------------------------------------|
+| Min Wick %     | 50       | Ngưỡng tổng râu (% spread) để nhận OB        |
+| Box Width      | 5        | Số nến kéo dài box OB về phía phải            |
+| Bull OB Color  | Teal     | Màu nến OB tăng                              |
+| Bear OB Color  | Red/Tomato| Màu nến OB giảm                             |
+| Show Label/Arrow | true   | Hiển thị nhãn tỉ lệ (TV) / mũi tên (MT5)    |
+| Show Box       | true     | Vẽ box vùng thân nến                         |
+
+## TradingView specifics
+- Vẽ `box` phủ vùng thân nến (body_top → body_bot), kéo dài `box_extend` nến.
+- Label dưới/trên nến hiển thị loại OB và wick_pct.
+- Giới hạn 500 box/label (max_boxes_count, max_labels_count).
+
+## MT5 specifics
+- Buffer 0 (BullBuffer): mũi tên ▲ dưới nến Bull OB (Wingdings 233).
+- Buffer 1 (BearBuffer): mũi tên ▼ trên nến Bear OB (Wingdings 234).
+- Vẽ OBJ_RECTANGLE phủ vùng thân nến, kéo dài `InpBoxBars` nến.
+- Objects dùng prefix "OB_" để dễ xoá khi remove indicator.
+- Tooltip hiển thị loại OB, wick_pct, thời gian nến.
+
+## Cài đặt MT5
+1. Copy `ob_wick_detector.mq5` vào:
+   `MQL5\Indicators\` trong thư mục dữ liệu MT5
+2. Compile bằng MetaEditor (F7).
+3. Kéo thả indicator vào chart.
+
+## Cài đặt TradingView
+1. Mở Pine Script Editor.
+2. Paste nội dung file `.pine`.
+3. Click "Add to chart".

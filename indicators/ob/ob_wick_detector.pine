@@ -1,0 +1,31 @@
+// This Pine Script® code is subject to the Mozilla Public License 2.0
+// © trading_tool
+//@version=5
+indicator("OB Wick Detector (≥50% Wick)", overlay=true, max_lines_count=500)
+
+// ─── Inputs ───────────────────────────────────────────────────────────────────
+wick_pct = input.float(50.0, "Min Tong Rau (% spread)", minval=0.0, maxval=100.0, step=1.0)
+max_bars = input.int(300,    "Max Bars",                 minval=10,  maxval=5000)
+bull_col = input.color(color.teal, "Mau Bull OB")
+bear_col = input.color(color.red,  "Mau Bear OB")
+
+// ─── Tính toán ─────────────────────────────────────────────────────────────────
+spread     = high - low
+total_wick = (high - math.max(open, close)) + (math.min(open, close) - low)
+wick_ratio = spread > 0 ? (total_wick / spread) * 100.0 : 0.0
+
+in_range = bar_index >= last_bar_index - max_bars
+is_ob    = in_range and wick_ratio >= wick_pct
+is_bull  = close >= open
+
+// ─── Mũi tên: trên đỉnh nến xanh, dưới đáy nến đỏ ───────────────────────────
+plotshape(is_ob and is_bull,     title="Bull OB", location=location.abovebar,
+          style=shape.triangleup,   color=bull_col, size=size.small)
+plotshape(is_ob and not is_bull, title="Bear OB", location=location.belowbar,
+          style=shape.triangledown, color=bear_col, size=size.small)
+
+// ─── Đường nét đứt đen tại midpoint (50% spread), kéo 3 nến sang trái ────────
+if is_ob
+    mid = (high + low) / 2.0
+    line.new(x1=bar_index, y1=mid, x2=bar_index + 3, y2=mid,
+             color=color.black, width=1, style=line.style_dashed)
